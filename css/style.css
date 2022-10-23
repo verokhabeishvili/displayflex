@@ -28,5 +28,70 @@
             margin-left: 10px;}
 
 /*section1*/ 
+.section1 {     display: flex;
+                justify-content: space-between;
+                margin-left: 132px;}
+
+.left-block {   width: 600px;  
+                height: 150px;
+                margin-right: 100px; }
+
+.title1 { font-size: 70px;
+        color: #534d4d;
+        font-family: 'Lato', sans-serif;}
+
+.text1  {font-size: 22px;
+        color: #534d4d;
+        margin-top: 57px;
+        font-family: 'Roboto';
+}
+
+.wave { width: 164px;
+        height: 44px;
+        background-color: #3D37F1;
+        border-radius: 38px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 85px;
+    }
+.wave-image { width: 20px;
+        height: 20px   }
+
+.wave-text { color: #FFFFFF;
+        font-size: 20px; 
+        font-family: 'Poppins';}
+
+.right-block { width: 400px;
+                height: 200px;}
+.main-image { width: 300px;}
 
 
+/*section2*/
+
+.section2 {     margin-top: 500px; /*margin-ის გარეშე გადააწერა წინა სექციას და რატომ? */
+                width: 1100px;}
+
+.text-block {   width: 650px;
+                margin: auto;
+                text-align: center;
+                padding-bottom: 30px;}
+
+.text-block-title {  font-size: 16px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        color: #3D37F1;}
+
+.text2 {margin-top: 15px;
+        font-size: 40px;
+        font-family: 'Lato', sans-serif;
+        color: #5A5454;
+        margin-top: 31px;
+       }
+.text3 { width: 713px;
+        height: 85px;
+        text-align: center;
+        font-size: 18px;
+        color: #747474;
+        font-family: 'Roboto Flex', sans-serif;
+        margin-top: 20px;}
